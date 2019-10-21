@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.grid {
+	border: 1px solid red;
+}
+
+.grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #e6e5e4;
+  border: 2px solid #b6b5b4;
+}
+
+.grid-item--width2 { 
+	width: 200px; 
+}
+
+.grid-item--height2 { 
+	height: 200px; 
+}
